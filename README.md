@@ -53,7 +53,7 @@ DockerShare/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/DockerShare.git
+git clone https://github.com/BinaryBard29/DockerShare
 cd DockerShare
 ```
 
