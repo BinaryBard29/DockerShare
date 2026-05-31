@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DockerShare</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    text-align:center;
+}
+
+h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.subtitle{
+    color:#94a3b8;
+    margin-bottom:40px;
+}
+
+.card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 30px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:600;
+}
+
+.btn:hover{
+    opacity:.9;
+}
+
+.features{
+    margin-top:30px;
+    text-align:left;
+}
+
+.features li{
+    margin:10px 0;
+}
+
+footer{
+    margin-top:30px;
+    color:#64748b;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>DockerShare</h1>
+
+<p class="subtitle">
+Containerized Local File Sharing Server
+</p>
+
+<div class="card">
+
+<h2>Share Files Across Devices</h2>
+
+<p style="margin-top:15px">
+Access documents, images, archives and other files from any device on the same network.
+</p>
+
+<a href="/files/" class="btn">
+Browse Shared Files
+</a>
+
+<div class="features">
+<ul>
+<li>Dockerized Deployment</li>
+<li>Nginx Web Server</li>
+<li>Local Network Access</li>
+<li>Cross Device File Sharing</li>
+<li>Lightweight and Fast</li>
+</ul>
+</div>
+
+</div>
+<div style="margin-top:40px;">
+    <h3>Scan to Access DockerShare</h3>
+
+    <img src="qr.png"
+         alt="QR Code"
+         width="220"
+         style="margin-top:15px; border-radius:10px;">
+
+    <p style="margin-top:10px;">
+        Scan using your phone camera
+    </p>
+</div>
+
+<footer>
+Powered by Docker + Nginx
+</footer>
+
+</div>
+
+</body>
+</html>

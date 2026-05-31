@@ -1,0 +1,5 @@
+DockerShare Demo File
+
+This is a sample text file used to demonstrate file sharing using Docker and Nginx.
+
+Created by Chinmay Upadhyaya (AKA BinaryBard29).
