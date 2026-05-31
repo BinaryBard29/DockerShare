@@ -1,5 +1,8 @@
-# DockerShare 🚀
+# DockerShare 
 
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
+![Nginx](https://img.shields.io/badge/Nginx-Web_Server-green)
+![DevOps](https://img.shields.io/badge/DevOps-Project-orange)
 DockerShare is a lightweight containerized file-sharing server built using Docker and Nginx. It enables users to host and access files through a web browser on devices connected to the same local network.
 
 The project demonstrates practical DevOps concepts including containerization, web server deployment, port mapping, container lifecycle management, networking, and troubleshooting.
